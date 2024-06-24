@@ -1,0 +1,72 @@
+
+
+
+.pregame{
+  width: 100%;
+  margin: auto;
+  background-color: #0e0e0e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pregame__content{
+  width: 100%;
+  margin: 100px;
+ position: relative;
+ cursor:default;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ border: solid 2px white;
+ overflow: hidden;
+ }
+
+ .pregame__content--number{
+   position: relative;
+   font-size: 3em;
+   font-weight: 900;
+   color:rgba(255, 255, 255, 0.05);
+   line-height: 0.9em;
+   transition: 1s;
+   user-select: none; 
+}
+
+.pregame__content--number:hover{
+  transition: 0s;
+   color: #fff;
+   text-shadow: 0 0 10px #0f0,
+   0 0 20px #0f0,
+   0 0 40px #0f0,
+   0 0 80px #0f0,
+   0 0 160px #0f0;
+   z-index: 1000;
+}
+
+.pregame__content--especial{
+  position: relative;
+  font-size: 3em;
+  font-weight: 900;
+  color:gold;
+  line-height: 0.9em;
+  transition: 1s;
+  user-select: none; 
+  cursor: pointer;
+  animation: parpadeo 2s infinite;
+}
+
+.pregame__content--especial:hover{
+  color: rgb(240, 19, 19);
+}
+
+@keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}

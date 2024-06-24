@@ -1,0 +1,70 @@
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  }
+
+  ul {
+  list-style: none;
+  }
+
+  a {
+  text-decoration: none;
+  }
+
+  :root {
+
+   /* SPACING */
+  --margin-xs: 10px;
+  --margin-s: 20px;
+  --margin-m: 30px;
+  --margin-l: 40px;
+  --margin-xl: 50px;
+  --margin-xxl: 60px;
+  --margin-section: 100px;
+
+  --padding-xs: 10px;
+  --padding-s: 20px;
+  --padding-m: 30px;
+  --padding-l: 40px;
+  --padding-xl: 50px;
+  --padding-xxl: 80px;
+
+  --gap-xs: 10px;
+  --gap-s: 20px;
+  --gap-m: 30px;
+  --gap-l: 40px;
+  --gap-xl: 50px;
+  --gap-xxl: 60px;
+
+  /* BORDER RADIUS */
+  --border-radius-primary: 100%;
+  --border-radius-secondary: 5px;
+
+  /* BRANDING COLORS */
+  --color-1: ;
+  --color-2: ;
+  --color-3: ;
+  --color-4: ;
+  --color-5: ;
+  --color-6: ;
+
+ /* BACKGROUND-COLORS */
+  --primary-bg: var(--color-1);
+  --secondary-bg: var(--color-2);
+  --tertiary-bg: var(--color-6);
+  --special-bg: var(--color-3);
+
+  /* TEXT-COLORS */
+  --primary-text: var(--color-3);
+  --secondary-text: var(--color-1);
+  --tertiary-text: var(--color-5);
+  --special-text: var(--color-4);
+  --special-v2-text: var(--color-2);
+
+
+  }
+  
