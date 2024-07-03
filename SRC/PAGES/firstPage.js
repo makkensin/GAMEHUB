@@ -4,7 +4,7 @@
 import './firstPage.css'
 
 import {introName} from '../COMPONENTS/introName.js';
-import { getRandom,checkPasswor } from '../UTILS/getRamNum.js';
+import { getRandom,checkPassword } from '../UTILS/getRamNum.js';
 
 export const firstPage = (numbers) => {
   const password1 = [];
@@ -31,13 +31,13 @@ export const firstPage = (numbers) => {
         span.classList.remove('pregame__content--especial'); 
         const num = span.textContent;
         password1.push(num);
-        checkPasswor(password1)
+        checkPassword(password1)
       })
     }
     
     p.append(span);
   }
   section.append(p);
-  setTimeout(introName, 500000); 
+  setTimeout(introName, 5000000); 
   main.append(section);
 }

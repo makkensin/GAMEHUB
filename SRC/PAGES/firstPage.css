@@ -3,34 +3,45 @@
 
 .pregame{
   width: 100%;
-  margin: auto;
+  padding: 18px;
   background-color: #0e0e0e;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url('');
+  background-repeat: no-repeat;
 }
-
 .pregame__content{
+  background-color: #0e0e0e;
   width: 100%;
-  margin: 100px;
- position: relative;
- cursor:default;
- display: flex;
- flex-direction: row;
- flex-wrap: wrap;
- border: solid 2px white;
- overflow: hidden;
- }
-
- .pregame__content--number{
-   position: relative;
-   font-size: 3em;
-   font-weight: 900;
-   color:rgba(255, 255, 255, 0.05);
-   line-height: 0.9em;
-   transition: 1s;
-   user-select: none; 
+  height: 100%;
+  margin: 10px;
+  position: relative;
+  cursor:default;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  opacity: 0;
+  animation: fadeInAnimation 50s forwards;
+  /* border: solid 2px white; */
 }
+
+
+@keyframes fadeInAnimation {
+  to {
+    opacity: 1;
+  }
+}
+.pregame__content--number{
+  position: relative;
+  font-size: 3em;
+  font-weight: 900;
+  color:rgba(255, 255, 255, 0.05);
+  line-height: 0.9em;
+  transition: 1s;
+  user-select: none; 
+}
+
 
 .pregame__content--number:hover{
   transition: 0s;
