@@ -1,8 +1,8 @@
 
 
 
+import { menuGame } from '../../PAGES/firstpage/menugame/menuGame';
 import './inputName.css'
-import { printName } from '../printname/printName';
 
 export const inputName = () =>{
  console.log('hola como estas?');
@@ -27,7 +27,8 @@ export const inputName = () =>{
 
  button.addEventListener('click', () => {
   const namePlayer = input.value; 
-  printName(namePlayer)
+  menuGame(namePlayer);
+  //printName(namePlayer)
   
 });
 player.append(label2,input,button);

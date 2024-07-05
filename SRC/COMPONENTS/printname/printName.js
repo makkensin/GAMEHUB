@@ -3,14 +3,14 @@
 
 
 
-export const printName = (name) =>{
-   
-  const body = document.querySelector('body');
+export const printName = (player) =>{
+ 
   const section = document.createElement('section');
    section.id = 'section2';
 
        section.innerHTML = `
-          <h2>${name}</h2>
-       `
-   body.append(section)
+          <h2>${player} are you ready?</h2>
+       `;
+       return section
+
 }

@@ -1,0 +1,26 @@
+
+
+
+
+.displaymenu{
+  position: absolute;
+  margin: auto;
+  width: 1000px;
+  max-width: 1000px;
+  height: 70svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-radius: 10px;
+  background-color:rgb(42, 41, 41);
+}
+
+.nameplayer{
+  width: 30%;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+
+}
