@@ -5,7 +5,7 @@ import './style.css'
 
 
 import { arrayNumbers } from './SRC/DATA/dataFirstPage.js'
-import { firstPage } from './SRC/PAGES/firstPage.js';
+import { firstPage } from './SRC/PAGES/firstpage/firstPage.js';
 
 
 const divapp = document.querySelector('#app')

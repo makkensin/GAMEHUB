@@ -3,7 +3,7 @@
 
 import './firstPage.css'
 
-import {introPassword} from '../COMPONENTS/introPassword.js';
+import {introPassword} from '../COMPONENTS/inputpassword/introPassword.js';
 import { getRandom } from '../UTILS/getRamNum.js';
 
 

@@ -6,6 +6,7 @@
   color: gold;
   border: solid 3px blue;
   border-radius: 10px;
+ background-color:rgb(42, 41, 41) ;
 }
 .player{
   width: 100%;
