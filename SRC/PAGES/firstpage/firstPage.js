@@ -3,8 +3,8 @@
 
 import './firstPage.css'
 
-import {introPassword} from '../COMPONENTS/inputpassword/introPassword.js';
-import { getRandom } from '../UTILS/getRamNum.js';
+import {introPassword} from '../../COMPONENTS/inputpassword/introPassword.js';
+import { getRandom } from '../../UTILS/getRamNum.js';
 
 
 export const firstPage = (numbers) => {

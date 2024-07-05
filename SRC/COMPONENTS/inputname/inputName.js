@@ -2,7 +2,7 @@
 
 
 import './inputName.css'
-import { printName } from './printName';
+import { printName } from '../printname/printName';
 
 export const inputName = () =>{
  console.log('hola como estas?');

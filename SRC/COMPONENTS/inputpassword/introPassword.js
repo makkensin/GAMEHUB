@@ -2,7 +2,7 @@
 
 
 import './introPassword.css'
-import { inputName } from './inputName';
+import { inputName } from '../inputname/inputName';
 
 export const introPassword = (password) =>{
   const section = document.querySelector('.pregame');
