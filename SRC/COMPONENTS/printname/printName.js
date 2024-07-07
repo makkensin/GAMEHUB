@@ -5,12 +5,13 @@
 
 export const printName = (player) =>{
  
-  const section = document.createElement('section');
-   section.id = 'section2';
+  const playerName = document.createElement('div');
+   playerName.classList = 'playername';
 
-       section.innerHTML = `
+       playerName.innerHTML = `
           <h2>${player} are you ready?</h2>
        `;
-       return section
+       return playerName
 
 }
+

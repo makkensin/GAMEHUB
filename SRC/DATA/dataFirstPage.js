@@ -1,6 +1,10 @@
 
 
 
+import { memoryGame } from "../PAGES/firstpage/memory/memoryGame"
+import { palabraDia } from "../PAGES/firstpage/palabra/palabraDia"
+import { piedraPapel } from "../PAGES/firstpage/piedrapapel/piedraPapel"
+
 
 export const arrayNumbers = [ 8, 7, 9, 4, 6, 5, 4, 2, 2, 4, 4, 1, 4, 5, 0, 7, 2, 5, 9, 7,
   7, 3, 2, 0, 8, 1, 8, 4, 2, 3, 3, 2, 4, 0, 5, 0, 8, 0, 5, 0,
@@ -76,4 +80,24 @@ export const arrayNumbers = [ 8, 7, 9, 4, 6, 5, 4, 2, 2, 4, 4, 1, 4, 5, 0, 7, 2,
   9, 7, 1, 9, 3, 6, 9, 3, 5, 5, 6, 5, 4, 0, 8, 3, 9, 8, 4, 8,
   5, 5, 4, 8, 1, 9, 1, 5, 0, 5, 3, 1, 4, 2, 7, 6, 9, 1, 3, 9,
   4, 9, 8, 0, 9, 5, 6, 7, 0, 3, 1, 2, 8, 0, 3, 1, 0, 4, 1, 7]
+
+
+  export const gamesToPlay = [
+    {
+      name: 'Juego de memoria',
+      img: './memory.png',
+      ruta: memoryGame
+    },
+    {
+      name: 'Piedra papel tijera',
+      img: './piedra.png',
+      ruta: piedraPapel
+      
+    },
+    {
+      name: 'Palabra del día',
+      img: './palabra.png',
+      ruta: palabraDia 
+    }
+  ]
  

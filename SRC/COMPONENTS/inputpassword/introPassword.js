@@ -19,6 +19,7 @@ export const introPassword = (password) =>{
   input.id = 'input';
   button.id = 'button';
 
+  input.focus();  
   button.addEventListener('click', () => {
     const inputValue = input.value; 
     if (password === inputValue) {
@@ -28,7 +29,8 @@ export const introPassword = (password) =>{
     } else {
       inputPassword.classList.remove('inputpassword')
       inputPassword.classList.add('inputwrong')
-        
+      input.value = ''; 
+      input.focus();    
     }
 });
 name.append(label,input,button);

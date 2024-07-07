@@ -2,28 +2,57 @@
 
 
 import { printName } from '../../../COMPONENTS/printname/printName'
+
 import './menuGame.css'
 
-export const menuGame =(name)=>{
+export const menuGame =(name,games)=>{
    console.log(name);
-  //printName(name);
   const inputName = document.querySelector('.inputname')
   inputName.innerHTML = '';
   const section = document.querySelector('.pregame');
-
 
   const displayMenu = document.createElement('section');
   displayMenu.classList = 'displaymenu';
  
   const namePlayer = document.createElement('div');
-  namePlayer.classList = 'nameplayer';
+  namePlayer.classList = 'playername';
+  
+  const gamesDiv = document.createElement('div');
+  gamesDiv.classList = 'games';
 
+  for (const game of games) {
+     console.log(game);
+     const gameDiv = document.createElement('div');
+     gameDiv.classList = 'game';
+     const gameImage = document.createElement('img');
+     gameImage.classList = 'gameimg';
+     gameImage.src = game.img;
 
+    gameDiv.addEventListener('click', ()=>{
+      game.ruta();
+    })
+     
+     gameDiv.append(gameImage);
 
+   gamesDiv.append(gameDiv)
 
+  }
 
-  namePlayer.append(printName(name));
-  displayMenu.append(namePlayer);
+  displayMenu.append(printName(name),gamesDiv);
   section.append(displayMenu);
   
 }
+
+
+
+
+
+
+
+ //   const gameName = document.createElement('div');
+   //   gameName.classList = 'gametext';
+   //   gameName.textContent = game.name;
+
+
+
+   //gameDiv.append(gameName);
