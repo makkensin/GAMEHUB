@@ -48,11 +48,3 @@ export const menuGame =(name,games)=>{
 
 
 
-
- //   const gameName = document.createElement('div');
-   //   gameName.classList = 'gametext';
-   //   gameName.textContent = game.name;
-
-
-
-   //gameDiv.append(gameName);
