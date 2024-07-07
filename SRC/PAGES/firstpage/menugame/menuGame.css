@@ -17,7 +17,7 @@
   border-radius: 10px;
   background-color:rgb(235, 95, 95); 
   opacity: 0.3;
-  animation: shadow 1s ease-in-out infinite;
+  animation: moverAbajo 2s alternate forwards, shadow 1s ease-in-out infinite;
 }
 
 .playername{
@@ -56,4 +56,13 @@
   0% { box-shadow: 0 0 10px rgba(235, 95, 95, 0.5); }
   50% { box-shadow: 0 0 40px rgba(235, 95, 95, 0.8); }
   100% { box-shadow: 0 0 10px rgba(235, 95, 95, 0.5); }
+}
+
+@keyframes moverAbajo {
+  0% {
+      transform: translateY(-50px); /* Empieza 100px abajo */
+  }
+  100% {
+      transform: translateY(0); /* Termina en su posición original */
+  }
 }
