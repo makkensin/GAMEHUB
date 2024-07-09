@@ -8,7 +8,7 @@ import './menuGame.css'
 export const menuGame =(name,games)=>{
    console.log(name);
   const inputName = document.querySelector('.inputname')
-  inputName.innerHTML = '';
+  inputName.remove();
   const section = document.querySelector('.pregame');
 
   const displayMenu = document.createElement('section');

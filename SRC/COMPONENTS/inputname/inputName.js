@@ -9,7 +9,7 @@ export const inputName = () =>{
  console.log('hola como estas?');
 
  const inputOk = document.querySelector('.inputok')
- inputOk.innerHTML = '';
+ inputOk.remove();
 
  const section = document.querySelector('.pregame');
 

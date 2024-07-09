@@ -9,13 +9,13 @@ export const introPassword = (password) =>{
   const inputPassword = document.createElement('div');
   const name = document.createElement('div');
   const label = document.createElement('label');
-  label.textContent = 'Recuerda';
+  label.textContent = 'REMEMBER';
   const input = document.createElement('input');
   const button = document.createElement('button');
-  button.textContent = 'ENVIAR';
+  button.textContent = 'CHECK';
   
   inputPassword.classList = 'inputpassword';
-  name.classList = 'name';
+  name.classList = 'recuerda';
   input.id = 'input';
   button.id = 'button';
 

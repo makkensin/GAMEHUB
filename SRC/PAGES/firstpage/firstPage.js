@@ -10,7 +10,6 @@ import { getRandom } from '../../UTILS/getRamNum.js';
 export const firstPage = (numbers) => {
   const password1 = [];
   let specialClickCount = 0;
-  console.log(password1);
   const main = document.querySelector('main');
 
   const section = document.createElement('section');
@@ -36,7 +35,6 @@ export const firstPage = (numbers) => {
        
         specialClickCount++;
         if (specialClickCount === 5) {
-          console.log('hola');
           introPassword(password1.join(''));
         }
 
