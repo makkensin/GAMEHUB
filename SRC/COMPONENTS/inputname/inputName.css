@@ -49,7 +49,6 @@
   filter: drop-shadow(0 0 15px #01dbc2);
 }
 
-
 @keyframes parpadeos3 {
   0% { box-shadow: 0 0 40px rgba(34, 167, 240, 0.5); }
   50% { box-shadow: 0 0 160px rgba(34, 167, 240, 0.8); }

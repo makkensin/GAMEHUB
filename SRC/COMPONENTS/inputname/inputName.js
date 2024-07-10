@@ -19,7 +19,7 @@ export const inputName = () =>{
  label2.textContent = 'YOUR NAME';
  const input = document.createElement('input');
  const button = document.createElement('button');
- button.textContent = 'JUEGA';
+ button.textContent = 'LET PLAY';
 
  inputName.classList = 'inputname';
  player.classList = 'player';
@@ -29,9 +29,8 @@ export const inputName = () =>{
  button.addEventListener('click', () => {
   const namePlayer = input.value; 
   menuGame(namePlayer,gamesToPlay);
-  //printName(namePlayer)
-  
 });
+
 player.append(label2,input,button);
 inputName.append(player);
 section.append(inputName);

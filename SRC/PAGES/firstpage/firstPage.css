@@ -22,9 +22,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   opacity: 0;
-  animation: fadeInAnimation 50s forwards;
+  animation: fadeInAnimation 30s forwards;
 }
-
 
 @keyframes fadeInAnimation {
   to {

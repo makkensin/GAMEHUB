@@ -33,9 +33,7 @@ export const introPassword = (password) =>{
       inputPassword.classList.add('inputwrong')
       label.textContent = 'TRY AGAIN';
       input.value = ''; 
-      setTimeout(() => autoReset(main,'demon'), 8000);
-      
-          
+      setTimeout(() => autoReset(main,'demon'), 4000);    
     }
 });
 name.append(label,input,button);
