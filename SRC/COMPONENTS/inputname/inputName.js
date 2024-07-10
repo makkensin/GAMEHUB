@@ -16,7 +16,7 @@ export const inputName = () =>{
  const inputName = document.createElement('div');
  const player = document.createElement('div');
  const label2 = document.createElement('label');
- label2.textContent = 'Your Name';
+ label2.textContent = 'YOUR NAME';
  const input = document.createElement('input');
  const button = document.createElement('button');
  button.textContent = 'JUEGA';

@@ -27,7 +27,7 @@ export const introPassword = (password) =>{
     if (password === inputValue) {
       inputPassword.classList.remove('inputpassword')
       inputPassword.classList.add('inputok')
-      setTimeout(inputName, 3000)
+      setTimeout(inputName, 2000)
     } else {
       inputPassword.classList.remove('inputpassword')
       inputPassword.classList.add('inputwrong')
