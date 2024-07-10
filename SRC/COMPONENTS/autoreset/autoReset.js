@@ -7,7 +7,8 @@ import { arrayNumbers } from '../../DATA/dataFirstPage';
 
 export const autoReset = (element,classlist) =>{
   const pregame = document.querySelector('.pregame');
-  pregame.innerHTML = '';
+  
+  pregame.remove();
 
   const demon = document.createElement('div');
   const demonImg = document.createElement('img');
@@ -20,10 +21,7 @@ export const autoReset = (element,classlist) =>{
   element.append(demon);
 
   setTimeout(() => {
-    demon.innerHTML = ''; 
+    demon.remove();
     firstPage(arrayNumbers);
-    firstPage.remove()
   }, 80);
-  
-
 }

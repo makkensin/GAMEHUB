@@ -39,5 +39,4 @@ export const introPassword = (password) =>{
 name.append(label,input,button);
 inputPassword.append(name);
 section.append(inputPassword);
-
 }

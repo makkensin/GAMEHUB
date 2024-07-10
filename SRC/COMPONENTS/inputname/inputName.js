@@ -6,7 +6,6 @@ import { menuGame } from '../../PAGES/firstpage/menugame/menuGame';
 import { gamesToPlay } from '../../DATA/dataFirstPage';
 
 export const inputName = () =>{
- console.log('hola como estas?');
 
  const inputOk = document.querySelector('.inputok')
  inputOk.remove();

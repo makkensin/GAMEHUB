@@ -3,6 +3,7 @@
 
 
 
+
 export const printName = (player) =>{
  
   const playerName = document.createElement('div');
