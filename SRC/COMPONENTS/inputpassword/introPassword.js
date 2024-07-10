@@ -1,10 +1,12 @@
 
 
-
 import './introPassword.css'
 import { inputName } from '../inputname/inputName';
+import { autoReset } from '../autoreset/autoReset';
+
 
 export const introPassword = (password) =>{
+  const main = document.querySelector('#main');
   const section = document.querySelector('.pregame');
   const inputPassword = document.createElement('div');
   const name = document.createElement('div');
@@ -29,8 +31,11 @@ export const introPassword = (password) =>{
     } else {
       inputPassword.classList.remove('inputpassword')
       inputPassword.classList.add('inputwrong')
+      label.textContent = 'TRY AGAIN';
       input.value = ''; 
-      input.focus();    
+      setTimeout(() => autoReset(main,'demon'), 8000);
+      
+          
     }
 });
 name.append(label,input,button);
