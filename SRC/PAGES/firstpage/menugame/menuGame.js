@@ -1,15 +1,17 @@
 
 
 
-import { printName } from '../../../COMPONENTS/printname/printName'
-
 import './menuGame.css'
+import { printName } from '../../../COMPONENTS/printname/printName'
+import { gamesToPlay } from '../../../DATA/dataFirstPage';
 
-export const menuGame =(name,games)=>{
+
+export const menuGame =(name)=>{
    console.log(name);
-  const inputName = document.querySelector('.inputname')
-  inputName.remove();
-  const section = document.querySelector('.pregame');
+  const main = document.querySelector('#main')
+
+  const pregame = document.createElement('section');
+  pregame.classList = 'pregame';
 
   const displayMenu = document.createElement('section');
   displayMenu.classList = 'displaymenu';
@@ -20,7 +22,7 @@ export const menuGame =(name,games)=>{
   const gamesDiv = document.createElement('div');
   gamesDiv.classList = 'games';
 
-  for (const game of games) {
+  for (const game of gamesToPlay) {
      console.log(game);
      const gameDiv = document.createElement('div');
      gameDiv.classList = 'game';
@@ -39,8 +41,8 @@ export const menuGame =(name,games)=>{
   }
 
   displayMenu.append(printName(name),gamesDiv);
-  section.append(displayMenu);
-  
+  pregame.append(displayMenu);
+  main.append(pregame);
 }
 
 
