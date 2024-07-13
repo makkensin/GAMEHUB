@@ -1,3 +1,37 @@
 
 
 
+.secnameplayer{
+  width: 100%;
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: #191919; */
+  background: black;
+}
+.divnameplayer{
+  position: relative;
+  width: 100%;
+  height: 10svh;
+  filter: url(#flame);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+.parranameplayer{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #ffeb4b;
+  text-shadow: 0 0 20px #f62817, 0 0 50px #f62817, 0 0 100px #f62817, 0 0 150px #f62817, 0 0 200px #f62817;
+  /* -webkit-box-reflect: below -110px linear-gradient(transparent, #0006); */
+}
+.svg{
+  height: 0;
+  width: 0;
+}
