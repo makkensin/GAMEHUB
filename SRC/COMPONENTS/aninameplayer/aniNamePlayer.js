@@ -1,5 +1,6 @@
 
 
+import { startGame } from '../buttonstartgame/buttonStartGame';
 import './aniNamePlayer.css';
 
 
@@ -20,7 +21,9 @@ export const aniNamePlayer = (name) =>{
   const svg = document.createElement('svg');
   const filter = document.createElement('filter');
   const turbulence = document.createElement('feTurbulence');
+  //const start = document.createElement('div');
   
+
   
   secNamePlayer.classList = 'secnameplayer';
   divNamePlayer.classList = 'divnameplayer';
@@ -36,16 +39,15 @@ export const aniNamePlayer = (name) =>{
   divNamePlayer.append(parraNamePlayer);
   secNamePlayer.append(divNamePlayer);
 
+  setTimeout(()=>{
+    startGame(secNamePlayer);
+ },7000)
+
   filter.append(turbulence);
   svg.append(filter);
 
   main.append(secNamePlayer,svg);
 
   
-
-
-
-
-
 
 }

@@ -1,0 +1,32 @@
+
+
+
+
+
+.divbuttonstart{
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+  background: black;
+  bottom: 150px;
+  cursor: pointer;
+  animation: moverArriba1 5s forwards ;
+}
+
+.hammer{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 100%;
+}
+
+
+@keyframes moverArriba1 {
+  from {
+      transform: translateY(150px); 
+  }
+  to {
+      transform: translateY(0);
+  }
+}
