@@ -1,9 +1,9 @@
 
 
 
-import { pictureTrain } from '../picturetrain/pictureTrain';
-import './inputName.css'
 
+import './inputName.css'
+import { pictureTrain } from '../picturetrain/pictureTrain';
 
 export const inputName = () =>{
 
@@ -28,7 +28,6 @@ export const inputName = () =>{
  button.addEventListener('click', () => {
   const namePlayer = input.value; 
    pictureTrain(namePlayer , 0);
-  //menuGame(namePlayer,gamesToPlay);
 });
 
 player.append(label2,input,button);

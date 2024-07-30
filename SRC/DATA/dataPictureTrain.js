@@ -1,6 +1,46 @@
 
 
 
+
+
+export const dataPictureTrain = [
+  {
+    url: '/train/13.jpg',
+    time: 5000
+  },
+  {
+    url: '/train/14.jpg',
+    time: 3000
+  },
+  {
+    url: '/train/2.jpg',
+    time: 500
+  },
+  {
+    url: '/train/6.jpg',
+    time: 8000
+  },
+  {
+    url: '/train/13.jpg',
+    time: 5000
+  },
+  {
+    url: '/train/7.jpg',
+    time: 5000
+  },
+]
+
+
+
+
+
+
+
+
+
+
+
+
 // export const dataPictureTrain = [
 //  '/train/13.jpg',
 //  '/train/13.jpg',
@@ -192,29 +232,9 @@
 
 
 
-export const dataPictureTrain = [
-  {
-    url: '/train/13.jpg',
-    time: 5000
-  },
-  {
-    url: '/train/14.jpg',
-    time: 3000
-  },
-  {
-    url: '/train/2.jpg',
-    time: 500
-  },
-  {
-    url: '/train/6.jpg',
-    time: 8000
-  },
-  {
-    url: '/train/13.jpg',
-    time: 5000
-  },
-  {
-    url: '/train/7.jpg',
-    time: 5000
-  },
-]
+
+
+
+
+
+

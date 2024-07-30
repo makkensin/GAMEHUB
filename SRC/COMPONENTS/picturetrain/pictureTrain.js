@@ -1,14 +1,13 @@
 
 
 
+
 import './pictureTrain.css';
 import { dataPictureTrain } from '../../DATA/dataPictureTrain';
 import { aniNamePlayer } from '../aninameplayer/aniNamePlayer';
 
-
-
 export const pictureTrain = (name, index) =>{
-   console.log(index);
+
     const pregame = document.querySelector('.pregame');
     if (pregame) {
       pregame.remove();
@@ -21,16 +20,18 @@ export const pictureTrain = (name, index) =>{
          <img alt="imagen galeria" src="${dataPictureTrain[index].url}"/>
       `;
       main.append(gallery);
-
-      
+       
       setTimeout(() => {
         if (index + 1 === dataPictureTrain.length) {
-          return;
+          gallery.remove()
+          aniNamePlayer(name);
+          return 
         }
-
+        
         let newIndex = index + 1;
         pictureTrain(name, newIndex);
       }, dataPictureTrain[index].time);
+      
     };
     
     
