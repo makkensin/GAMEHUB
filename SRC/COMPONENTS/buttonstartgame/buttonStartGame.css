@@ -1,8 +1,6 @@
 
 
 
-
-
 .divbuttonstart{
   position: absolute;
   width: 110px;
@@ -11,7 +9,7 @@
   background: black;
   bottom: 150px;
   cursor: pointer;
-  animation: moverArriba1 5s forwards ;
+  animation: moverArriba1 7s forwards ;
 }
 
 .hammer{
@@ -21,10 +19,14 @@
   border-radius: 100%;
 }
 
+/* .border{
+  border: 2px solid red;
+} */
+
 
 @keyframes moverArriba1 {
   from {
-      transform: translateY(150px); 
+      transform: translateY(140px); 
   }
   to {
       transform: translateY(0);

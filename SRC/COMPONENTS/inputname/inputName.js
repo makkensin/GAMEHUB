@@ -27,7 +27,7 @@ export const inputName = () =>{
 
  button.addEventListener('click', () => {
   const namePlayer = input.value; 
-   pictureTrain(namePlayer)
+   pictureTrain(namePlayer , 0);
   //menuGame(namePlayer,gamesToPlay);
 });
 

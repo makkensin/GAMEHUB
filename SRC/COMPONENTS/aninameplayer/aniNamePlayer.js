@@ -1,5 +1,6 @@
 
 
+
 import { startGame } from '../buttonstartgame/buttonStartGame';
 import './aniNamePlayer.css';
 
@@ -8,10 +9,8 @@ export const aniNamePlayer = (name) =>{
   let namePlayer = name.toUpperCase().split('');
   const textNamePlayer = [" ","A","R","E"," ","Y","O","U"," ","R","E","A","D","Y","?"];
   const compNamePlay = [...namePlayer, ...textNamePlayer];
-  //console.log(compNamePlay);
-  const completeNamePlayer = compNamePlay.join('');
-  //console.log(completeNamePlayer);
 
+  const completeNamePlayer = compNamePlay.join('');
 
   const main = document.querySelector('#main');
   const secNamePlayer = document.createElement('section');
@@ -23,8 +22,6 @@ export const aniNamePlayer = (name) =>{
   const turbulence = document.createElement('feTurbulence');
   //const start = document.createElement('div');
   
-
-  
   secNamePlayer.classList = 'secnameplayer';
   divNamePlayer.classList = 'divnameplayer';
   parraNamePlayer.classList = 'parranameplayer';
@@ -35,19 +32,28 @@ export const aniNamePlayer = (name) =>{
   turbulence.setAttribute('numOctaves','3');
   turbulence.setAttribute('seed', '4');
 
-
   divNamePlayer.append(parraNamePlayer);
   secNamePlayer.append(divNamePlayer);
 
   setTimeout(()=>{
+
     startGame(secNamePlayer);
+    const btnStart = document.querySelector('#divstart');
+    const rect = btnStart.getBoundingClientRect();
+    console.log(rect.top, rect.right);
+
+    if (rect.top === 799 && rect.right === 1015) {
+       btnStart.classList.add('border');
+    } else{
+      console.log('Element with id "divstart" not found.');
+    }
+    
  },7000)
-
-  filter.append(turbulence);
-  svg.append(filter);
-
+ filter.append(turbulence);
+ svg.append(filter);
+ 
   main.append(secNamePlayer,svg);
 
-  
-
 }
+
+
