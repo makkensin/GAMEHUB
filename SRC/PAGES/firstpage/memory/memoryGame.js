@@ -3,7 +3,9 @@
 
 import './memoryGame.css'
 
-export const memoryGame = () =>{
+export const memoryGame = (element) =>{
 
   console.log('memorygame');
+
+  
 }

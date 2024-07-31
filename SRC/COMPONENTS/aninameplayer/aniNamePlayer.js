@@ -38,17 +38,8 @@ export const aniNamePlayer = (name) =>{
   setTimeout(()=>{
 
     startGame(secNamePlayer);
-    const btnStart = document.querySelector('#divstart');
-    const rect = btnStart.getBoundingClientRect();
-    console.log(rect.top, rect.right);
-
-    if (rect.top === 799 && rect.right === 1015) {
-       btnStart.classList.add('border');
-    } else{
-      console.log('Element with id "divstart" not found.');
-    }
     
- },7000)
+ },3000)
  filter.append(turbulence);
  svg.append(filter);
  

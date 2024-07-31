@@ -26,15 +26,18 @@ export const pictureTrain = (name, index) =>{
           gallery.remove()
           aniNamePlayer(name);
           return 
+        }else{
+          let newIndex = index + 1;
+          pictureTrain(name, newIndex);
         }
-        
-        let newIndex = index + 1;
-        pictureTrain(name, newIndex);
       }, dataPictureTrain[index].time);
       
     };
+
     
-    
+
+
+
     
     
   

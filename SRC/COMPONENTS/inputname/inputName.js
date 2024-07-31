@@ -2,6 +2,7 @@
 
 
 
+
 import './inputName.css'
 import { pictureTrain } from '../picturetrain/pictureTrain';
 

@@ -6,26 +6,146 @@
 export const dataPictureTrain = [
   {
     url: '/train/13.jpg',
-    time: 5000
+    time: 4000
   },
   {
-    url: '/train/14.jpg',
-    time: 3000
+    url: '/train/1.jpg',
+    time: 200
   },
   {
-    url: '/train/2.jpg',
-    time: 500
-  },
-  {
-    url: '/train/6.jpg',
-    time: 8000
+    url: '/train/16.webp',
+    time: 100
   },
   {
     url: '/train/13.jpg',
-    time: 5000
+    time: 100
   },
   {
-    url: '/train/7.jpg',
+    url: '/train/16.webp',
+    time: 100
+  },
+  {
+    url: '/train/13.jpg',
+    time: 100
+  },
+  {
+    url: '/train/16.webp',
+    time: 100
+  },
+  {
+    url: '/train/13.jpg',
+    time: 100
+  },
+  {
+    url: '/train/16.webp',
+    time: 100
+  },
+  {
+    url: '/train/13.jpg',
+    time: 100
+  },
+  {
+    url: '/train/15.jpg',
+    time: 100
+  },
+  {
+    url: '/train/13.jpg',
+    time: 100
+  },
+  {
+    url: '/train/16.webp',
+    time: 100
+  },
+  {
+    url: '/train/13.jpg',
+    time: 100
+  },
+  {
+    url: '/train/16.webp',
+    time: 100
+  },
+  {
+    url: '/train/13.jpg',
+    time: 100
+  },
+  {
+    url: '/train/1.jpeg',
+    time: 300
+  },
+  {
+    url: '/train/16.webp',
+    time: 100
+  },
+  {
+    url: '/train/13.jpg',
+    time: 100
+  },
+  {
+    url: '/train/14.jpg',
+    time: 100
+  },
+  {
+    url: '/train/13.jpg',
+    time: 100
+  },
+  {
+    url: '/train/14.jpg',
+    time: 100
+  },
+  {
+    url: '/train/13.jpg',
+    time: 100
+  },
+  {
+    url: '/train/14.jpg',
+    time: 100
+  },
+  {
+    url: '/train/13.jpg',
+    time: 100
+  },
+  {
+    url: '/train/15.jpg',
+    time: 100
+  },
+  {
+    url: '/train/13.jpg',
+    time: 100
+  },
+  {
+    url: '/train/14.jpg',
+    time: 100
+  },
+  {
+    url: '/train/13.jpg',
+    time: 100
+  },
+  {
+    url: '/train/14.jpg',
+    time: 100
+  },
+  {
+    url: '/train/13.jpg',
+    time: 100
+  },
+  {
+    url: '/train/13.jpg',
+    time: 100
+  },
+  {
+    url: '/train/2.jpg',
+    time: 200
+  },
+  {
+    url: '/train/13.jpg',
+    time: 100
+  },
+  {
+    url: '/train/3.jpg',
+    time: 200
+  },
+  {
+    url: '/train/ragnar.jpg',
     time: 5000
   },
 ]
@@ -36,199 +156,6 @@ export const dataPictureTrain = [
 
 
 
-
-
-
-
-
-// export const dataPictureTrain = [
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/14.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/14.jpg',
-//  '/train/13.jpg',
-//  '/train/14.jpg',
-//  '/train/13.jpg',
-//  '/train/14.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/15.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/15.jpg',
-//  '/train/13.jpg',
-//  '/train/15.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/16.webp',
-//  '/train/13.jpg',
-//  '/train/16.webp',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/runa1.jpg',
-//  '/train/runa1.jpg',
-//  '/train/runa1.jpg',
-//  '/train/runa1.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/runa1.jpg',
-//  '/train/runa1.jpg',
-//  '/train/runa1.jpg',
-//  '/train/runa1.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/runa1.jpg',
-//  '/train/runa1.jpg',
-//  '/train/runa1.jpg',
-//  '/train/runa1.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/runa1.jpg',
-//  '/train/runa1.jpg',
-//  '/train/runa1.jpg',
-//  '/train/runa1.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/13.jpg',
-//  '/train/5.jpg',
-//  '/train/11.jpg',
-//  '/train/12.webp',
-//  '/train/6.jpg',
-//  '/train/7.jpg',
-//  '/train/8.jpeg',
-//  '/train/4.webp',
-//  '/train/5.jpg',
-//  '/train/6.jpg',
-//  '/train/2.jpg',
-//  '/train/11.jpg',
-//  '/train/12.webp',
-//  '/train/12.webp',
-//  '/train/12.webp',
-//  '/train/12.webp',
-//  '/train/12.webp',
-//  '/train/3.png',
-//  '/train/7.jpg',
-//  '/train/8.jpeg',
-//  '/train/12.webp',
-//  '/train/8.jpeg',
-//  '/train/11.jpg',
-//  '/train/4.webp',
-//  '/train/5.jpg',
-//  '/train/6.jpg',
-//  '/train/2.jpg',
-//  '/train/9.jpg',
-//  '/train/10.jpg',
-//  '/train/3.png',
-//  '/train/7.jpg',
-//  '/train/7.jpg',
-//  '/train/7.jpg',
-//  '/train/8.jpeg',
-//  '/train/11.jpg',
-//  '/train/12.webp',
-//  '/train/8.jpeg',
-//  '/train/4.webp',
-//  '/train/5.jpg',
-//  '/train/6.jpg',
-//  '/train/11.jpg',
-//  '/train/2.jpg',
-//  '/train/9.jpg',
-//  '/train/10.jpg',
-//  '/train/6.jpg',
-//  '/train/2.jpg',
-//  '/train/3.png',
-//  '/train/12.webp',
-//  '/train/7.jpg',
-//  '/train/5.jpg',
-//  '/train/6.jpg',
-//  '/train/2.jpg',
-//  '/train/3.png',
-//  '/train/11.jpg',
-//  '/train/11.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',
-//  '/train/ragnar.jpg',,
-// ];
 
 
 
