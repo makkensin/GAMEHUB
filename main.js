@@ -7,8 +7,8 @@
 import './style.css'
 
 
- import { arrayNumbers } from './SRC/DATA/dataFirstPage.js'
- import { firstPage } from './SRC/PAGES/firstpage/firstPage.js';
+  import { arrayNumbers } from './SRC/DATA/dataFirstPage.js'
+  import { firstPage } from './SRC/PAGES/firstpage/firstPage.js';
 
 
 const divapp = document.querySelector('#app')

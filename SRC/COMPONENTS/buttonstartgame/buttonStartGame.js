@@ -1,6 +1,7 @@
 
 
 
+import { runePage } from '../../PAGES/firstpage/runepage/runePage';
 import './buttonStartGame.css';
 
 
@@ -20,8 +21,7 @@ export const startGame = (element) => {
     
     divButtonStart.addEventListener('click', ()=>{
       setTimeout(() => {
-        
-       
+        runePage(element);
       }, 3000);
     })
   })
