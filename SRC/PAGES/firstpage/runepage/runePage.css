@@ -1,8 +1,6 @@
 
 
 
-
-
 .runesection{
   width: 100%;
   min-height: 100svh;
@@ -14,6 +12,9 @@
   background-image: url('');
   background-repeat: no-repeat;
 }
+/* .runesection__transparent{
+  filter: blur(3px);
+} */
 .runesection__content{
   background-color: #0e0e0e;
   width: 100%;
@@ -43,8 +44,7 @@
   user-select: none; 
 }
 
-
-.runesection__content--number:hover{
+/* .runesection__content--number:hover{
   transition: 0s;
    color: #fff;
    text-shadow: 0 0 10px #0f0,
@@ -53,7 +53,7 @@
    0 0 80px #0f0,
    0 0 160px #0f0;
    z-index: 1000;
-}
+} */
 
 .runesection__content--especial{
   position: relative;

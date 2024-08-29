@@ -1,0 +1,46 @@
+
+.memorysection{
+  width: 100%;
+  min-height: 100svh;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.memorysection1{
+  width: 60%;
+  height: 200px;
+  top: 70px;
+  position:absolute;
+  z-index: 5;
+  filter: blur(0px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.memorysection2{
+  width: 60%;
+  height: 200px;
+  bottom: 70px;
+  position:absolute;
+  z-index: 5;
+  filter: blur(0px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.cardrune1 {
+  width: 130px;
+  height: 180px;
+  filter: blur(0px);
+  cursor: pointer;
+}
+.cardrune2 {
+  width: 130px;
+  height: 180px;
+  filter: blur(0px);
+}

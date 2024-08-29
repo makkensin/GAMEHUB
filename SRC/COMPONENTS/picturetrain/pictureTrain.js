@@ -1,7 +1,5 @@
 
 
-
-
 import './pictureTrain.css';
 import { dataPictureTrain } from '../../DATA/dataPictureTrain';
 import { aniNamePlayer } from '../aninameplayer/aniNamePlayer';
@@ -38,9 +36,24 @@ export const pictureTrain = (name, index) =>{
 
 
 
-    
-    
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

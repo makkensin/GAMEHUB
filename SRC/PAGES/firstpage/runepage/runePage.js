@@ -2,8 +2,8 @@
 
 import { runasCeltas } from '../../../DATA/runasCeltas'
 import { getRandom } from '../../../UTILS/getRamNum';
+import { memoryGame } from '../memory/memoryGame';
 import './runePage.css'
-
 
 
 export const runePage = (element) =>{
@@ -22,6 +22,7 @@ export const runePage = (element) =>{
 
   const randomIndices = getRandom(runasCeltas.length, 1);
 
+   
   for (let i = 0; i < runasCeltas.length; i++) {
 
     const span = document.createElement('span');
@@ -31,15 +32,8 @@ export const runePage = (element) =>{
     if (randomIndices.includes(i)) {
       span.classList.add('runesection__content--especial');
       span.addEventListener('click', ()=>{
-        span.classList.remove('runesection__content--especial');
-        const num = span.textContent;
-        password1.push(num);
-       
-        specialClickCount++;
-        if (specialClickCount === 5) {
-          introPassword(password1.join(''));
-        }
-
+         span.classList.remove('runesection__content--especial');
+           memoryGame(element);
       })
     }
     p.append(span);
@@ -48,6 +42,11 @@ export const runePage = (element) =>{
   runeSection.append(p);
   main.append(runeSection);
 
-  
-
 }
+
+
+
+   
+        // const num = span.textContent;
+        // password1.push(num);
+       

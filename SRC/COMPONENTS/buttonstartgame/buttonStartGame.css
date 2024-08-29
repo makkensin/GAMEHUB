@@ -3,8 +3,8 @@
 
 .divbuttonstart{
   position: absolute;
-  width: 85px;
-  height: 85px;
+  width: 80px;
+  height: 80px;
   border-radius: 100%;
   background: black;
   bottom: 150px;
@@ -14,6 +14,7 @@
 }
 
 .hammer{
+  padding: 3px;
   width: 100%;
   height: 100%;
   object-fit: contain;

@@ -9,7 +9,7 @@ export const startGame = (element) => {
   
   const divButtonStart = document.createElement('div');
   const hammer = document.createElement('img');
-  hammer.src = './hammer.jpg';
+  hammer.src = './hammer2.jpeg';
   
   divButtonStart.id = 'divstart';
   divButtonStart.classList ='divbuttonstart';

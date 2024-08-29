@@ -1,8 +1,5 @@
 
 
-
-
-
 export const dataPictureTrain = [
   {
     url: '/train/13.jpg',
@@ -149,19 +146,5 @@ export const dataPictureTrain = [
     time: 5000
   },
 ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

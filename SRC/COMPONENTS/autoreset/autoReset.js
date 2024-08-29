@@ -4,7 +4,6 @@ import './autoReset.css'
 import { firstPage } from '../../PAGES/firstpage/firstPage';
 import { arrayNumbers } from '../../DATA/dataFirstPage';
 
-
 export const autoReset = (element,classlist) =>{
   const pregame = document.querySelector('.pregame');
   
@@ -25,3 +24,5 @@ export const autoReset = (element,classlist) =>{
     firstPage(arrayNumbers);
   }, 80);
 }
+
+
