@@ -12,4 +12,5 @@ export const dataMemoryCards = [
   '/runes/8.jpeg',
   '/runes/9.jpeg',
   '/runes/10.jpeg',
-]
+];
+

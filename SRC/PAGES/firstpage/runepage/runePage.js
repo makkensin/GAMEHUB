@@ -33,7 +33,7 @@ export const runePage = (element) =>{
       span.classList.add('runesection__content--especial');
       span.addEventListener('click', ()=>{
          span.classList.remove('runesection__content--especial');
-           memoryGame(element);
+            memoryGame(element);
       })
     }
     p.append(span);
