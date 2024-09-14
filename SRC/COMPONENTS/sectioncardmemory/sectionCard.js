@@ -12,6 +12,7 @@ export const card = ( classList1, classList2, classList3, src1, src2  ) =>{
   cardBack.classList = classList3;
   
   const imgFront = document.createElement('img');
+  imgFront.classList = 
   imgFront.src = src1;
   const imgBack = document.createElement('img');
   imgBack.src = src2;

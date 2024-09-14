@@ -1,10 +1,22 @@
 
 
+/* .new-runesection{
+  width: 100%;
+  min-height: 100svh;
+  padding: 18px;
+  background-color: #0e0e0e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('');
+  background-repeat: no-repeat;
+} */
 
-.memorysection1 {
+
+.memorysection {
   width: 80%;
-  height: 250px;
-  position: absolute;
+  /* height: 250px; */
+   position: absolute; 
   top: 70px;
   display: flex;
   flex-wrap: wrap; 
@@ -13,6 +25,106 @@
   gap: 20px;
   perspective: 1000px;
 }
+
+.card {
+  width: 150px;
+  height: 200px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  border-radius: 5px;
+  perspective: 1000px;
+}
+
+.card-back {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  border-radius: 5px;
+  transform: rotateY(180deg);
+   /* Ocultar la parte trasera inicialmente */
+}
+
+.card-front {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  transform: rotateY(0deg); /* Mostrar la imagen inicialmente */
+}
+
+.img-back {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.img-front {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card-back, .card-front {
+  backface-visibility: hidden;
+  transition: transform 0.6s ease;
+}
+
+.card.flipped .card-back {
+  transform: rotateY(0deg); /* Mostrar el número */
+}
+
+.card.flipped .card-front {
+  transform: rotateY(180deg); /* Ocultar la imagen */
+}
+
+.div-puntuacion{
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+
+}
+
+.puntuacion{
+ color: white;
+ font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .memorysection2{
   width: 80%;
   height: 250px;
@@ -84,26 +196,6 @@
   height: 100%;
   object-fit: cover; 
   border-radius: 5px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .card1:hover {
-  transform: rotateY(180deg);
-}
-.card2:hover {
-  transform: rotateY(180deg);
 } */
 
 
@@ -117,49 +209,5 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .card1--front{
- width: 100%;
- height: 100%;
- position: absolute;
- backface-visibility: hidden;
-}
-
-.card1--back{
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  backface-visibility: hidden;
-}
-
-.card1--front > img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.card1--back > img{
-  width: 100%;
- height: 100%;
- object-fit: cover;
-} */
 
 
